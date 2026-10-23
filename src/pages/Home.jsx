@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
-// Admin's Binance deposit address — Luffy fills this in later from the admin panel note.
-// Placeholder shown until he sets his real address.
-export const DEPOSIT_ADDRESS = 'YOUR-BINANCE-BNB-ADDRESS-HERE';
+// Admin's Binance deposit address (BEP20)
+export const DEPOSIT_ADDRESS = '0xe02076b219171745f582598fc582670980d25fab';
 
 export default function Home({ go }) {
   const [copied, setCopied] = useState(false);
